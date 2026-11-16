@@ -44,4 +44,19 @@
 | `grep -c`    | Compte les lignes qui contiennent le mot      | `grep -c ERROR app.log` |
 | `grep -r`    | Cherche dans tous les fichiers du dossier     | `grep -r "todo" .`      |
 | `grep -r -l` | Affiche seulement le nom des fichiers trouvés | `grep -r -l "todo" .`   |
-| `find`       | Retrouve un fichier par son nom               |  `find . -name "*.js"`
+| `find`       | Retrouve un fichier par son nom               |  `find . -name "*.js"`  |
+## Scripts
+
+| Commande      | Ce qu'elle fait                                      | Exemple                        |
+| ------------- | ---------------------------------------------------- | ------------------------------ |
+| `#!/bin/bash` | Première ligne d'un script : indique d'utiliser bash | `#!/bin/bash`                  |
+| `chmod +x`    | Donne le droit d'exécution à un fichier              | `chmod +x scripts/verifier.sh` |
+| `./ `         | Lance un script du dossier courant                   | `./scripts/verifier.sh`        |
+
+## Versions
+
+| Commande         | Ce qu'elle fait                      | Exemple          |
+| ---------------- | ------------------------------------ | ---------------- |
+| `--version`      | Affiche la version d'un outil        | `node --version` |
+| `lsb_release -d` | Affiche la version d'Ubuntu          | `lsb_release -d` |
+| `which`          | Indique où un programme est installé | `which node`     |
