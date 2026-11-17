@@ -62,3 +62,7 @@ Résultat attendu : une version pour Ubuntu, Git, Node.js, npm et tree.
 | ``docs/aide-memoire.md` | Mes commandes Linux, expliquées                                         |
 | `scripts/installer.sh`  | Installe tous les outils dans Ubuntu en une commande                    |
 | `scripts/verifier.sh`   | Affiche la version de chaque outil pour vérifier que tout est prêt      |
+
+## Historique 
+ 
+Ce dossier est suivi avec Git depuis le sous-module 2. 
