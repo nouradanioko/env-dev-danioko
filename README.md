@@ -29,4 +29,4 @@ Environnement de développement de Danioko Rafiatou Noura – B1 DEV, IFRAN.
 | htop    | 3.4.1   | sudo apt install -y htop                          |
 | nano    | 8.7.1   | sudo apt install -y nano                          |
 | Node.js | 26.13.0 | dépôt NodeSource, puis sudo apt install -y nodejs |
-| npm     | 11.20.0 | installé avec Node.js                             |
+| npm     | 11.20.0 | installé avec Node.js                             |# env-dev-danioko
