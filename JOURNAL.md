@@ -17,3 +17,11 @@
 - **Décision :** utiliser VS Code.
 - **Autres possibilités :** nano, le Bloc-notes.
 - **Raison :** VS Code s'ouvre sur les dossiers d'Ubuntu et a un terminal intégré.
+
+## Hébergement du dépôt : GitHub
+
+- **Décision :** J'ai choisi GitHub pour héberger mon dépôt Git.
+
+- **Autres possibilités :** Je pouvais également utiliser GitLab ou Bitbucket.
+
+- **Raison du choix :** GitHub me permet de sauvegarder mon projet en ligne, de conserver son historique et de collaborer facilement avec d'autres développeurs grâce aux branches et aux pull requests.
