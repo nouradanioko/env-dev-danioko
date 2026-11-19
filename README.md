@@ -30,3 +30,16 @@ Environnement de développement de Danioko Rafiatou Noura – B1 DEV, IFRAN.
 | nano    | 8.7.1   | sudo apt install -y nano                          |
 | Node.js | 26.13.0 | dépôt NodeSource, puis sudo apt install -y nodejs |
 | npm     | 11.20.0 | installé avec Node.js                             |
+
+## Contenu du dossier
+
+| Dossier / Fichier         | Description                               |
+|---------------------------|-------------------------------------------|
+| `docs/`                   | Documents du projet                       |
+| `docs/aide-memoire.md`    | Fiche aide-mémoire                        |
+| `docs/reseau.md`          | Fiche réseau : adresses IP et DNS         |
+| `scripts/`                | Scripts du projet                         |
+| `scripts/installer.sh`    | Script d'installation des outils          |
+| `scripts/verifier.sh`     | Script de vérification de l'environnement |
+| `journal.md`              | Journal de suivi du projet                |
+| `README.md`               | Présentation et documentation du projet   |
