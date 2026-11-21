@@ -3,7 +3,7 @@
 ## Se déplacer
 
 | Commande    | Ce qu'elle fait                   | Exemple     |
-| ----------  | --------------------------------- | ----------- |
+| ----------- | --------------------------------- | ----------- |
 | `pwd`       | Affiche le dossier où je suis     | `pwd`       |
 | `cd`        | Change de dossier                 | `cd ~/dev`  |
 | `cd ..`     | Remonte d'un niveau               | `cd ..`     |
@@ -44,7 +44,8 @@
 | `grep -c`    | Compte les lignes qui contiennent le mot      | `grep -c ERROR app.log` |
 | `grep -r`    | Cherche dans tous les fichiers du dossier     | `grep -r "todo" .`      |
 | `grep -r -l` | Affiche seulement le nom des fichiers trouvés | `grep -r -l "todo" .`   |
-| `find`       | Retrouve un fichier par son nom               |  `find . -name "*.js"`  |
+| `find`       | Retrouve un fichier par son nom               | `find . -name "*.js"`   |
+
 ## Scripts
 
 | Commande      | Ce qu'elle fait                                      | Exemple                        |
@@ -61,7 +62,6 @@
 | `lsb_release -d` | Affiche la version d'Ubuntu          | `lsb_release -d` |
 | `which`          | Indique où un programme est installé | `which node`     |
 
-
 ## Branches
 
 - `git branch` : afficher les branches locales.
@@ -71,3 +71,7 @@
 - `git merge nom-branche` : fusionner une branche.
 - `git branch -d nom-branche` : supprimer une branche fusionnée.
 - `git log --oneline --graph --all` : afficher l'historique des branches.
+
+## Astuce de Adam
+
+`history` affiche la liste des commandes déjà utilisées dans le terminal.
