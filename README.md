@@ -44,3 +44,23 @@ Environnement de développement de Danioko Rafiatou Noura – B1 DEV, IFRAN.
 | `scripts/verifier.sh`     | Script de vérification de l'environnement |
 | `journal.md`              | Journal de suivi du projet                |
 | `README.md`               | Présentation et documentation du projet   |
+## Installation
+
+### 1. Installer Ubuntu et VS Code
+
+- **Windows :** dans le Terminal (administrateur), taper `wsl --install`,
+  redémarrer, puis choisir un nom d'utilisateur et un mot de passe Ubuntu.
+- **Mac :** installer Homebrew depuis [brew.sh](https://brew.sh), puis taper
+  `brew install colima docker`, `colima start` et `colima ssh`.
+- Installer VS Code depuis [code.visualstudio.com](https://code.visualstudio.com).
+
+### 2. Installer les outils dans Ubuntu
+
+1. Ouvrir Ubuntu et copier le projet : `git clone https://github.com/nouradanioko/env-dev-danioko.git ~/dev/env-dev-danioko`
+2. Aller dans le dossier du projet : `cd ~/dev/env-dev-danioko`
+3. Lancer le script d'installation : `./scripts/installer.sh`
+
+## Vérification
+
+Lancer `./scripts/verifier.sh` dans Ubuntu.
+Résultat attendu : une version pour Ubuntu, Git, Node.js, npm et tree.

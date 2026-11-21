@@ -25,3 +25,9 @@
 - **Autres possibilités :** Je pouvais également utiliser GitLab ou Bitbucket.
 
 - **Raison du choix :** GitHub me permet de sauvegarder mon projet en ligne, de conserver son historique et de collaborer facilement avec d'autres développeurs grâce aux branches et aux pull requests.
+
+## 2026-11-21 – Travailler avec des branches
+
+- **Décision :** créer une branche pour chaque modification, puis la fusionner dans main.
+- **Autres possibilités :** tout modifier directement sur main.
+- **Raison :** sur une branche, je peux essayer sans risquer de casser la version qui marche, et je fusionne seulement quand c'est prêt.
