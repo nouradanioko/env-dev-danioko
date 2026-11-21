@@ -20,6 +20,7 @@ Environnement de développement de Danioko Rafiatou Noura – B1 DEV, IFRAN.
 | Processeurs  | 8                    | 
 | Mémoire      | 7,6 Go               | 
 | Utilisateur  | zbook                | 
+
 ## Logiciels installés dans Ubuntu
 
 | Logiciel| Version | Commande d'installation                           |
