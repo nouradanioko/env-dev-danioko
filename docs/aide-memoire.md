@@ -60,3 +60,14 @@
 | `--version`      | Affiche la version d'un outil        | `node --version` |
 | `lsb_release -d` | Affiche la version d'Ubuntu          | `lsb_release -d` |
 | `which`          | Indique où un programme est installé | `which node`     |
+
+
+## Branches
+
+- `git branch` : afficher les branches locales.
+- `git branch -a` : afficher les branches locales et distantes.
+- `git switch nom-branche` : changer de branche.
+- `git switch -c nom-branche` : créer une branche.
+- `git merge nom-branche` : fusionner une branche.
+- `git branch -d nom-branche` : supprimer une branche fusionnée.
+- `git log --oneline --graph --all` : afficher l'historique des branches.
