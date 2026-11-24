@@ -66,3 +66,5 @@ Environnement de développement de Danioko Rafiatou Noura – B1 DEV, IFRAN.
 
 Lancer `./scripts/verifier.sh` dans Ubuntu.
 Résultat attendu : une version pour Ubuntu, Git, Node.js, npm et tree.
+- Version de Python : 3.14.4
+- Résultat attendu : `HTTP 200 OK`
